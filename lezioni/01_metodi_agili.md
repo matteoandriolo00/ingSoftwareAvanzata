@@ -1,8 +1,7 @@
 # Ingegneria del Software Avanzata A.A. 2025/2026
 ## Metodi Agili
 
-**Damiano Azzolini**
-Università di Ferrara
+Docente: Damiano Azzolini - Università di Ferrara
 
 ---
 
@@ -34,14 +33,13 @@ Oggigiorno, lo sviluppo rapido del software è un requisito chiave perché:
 ---
 
 ### Sviluppo Guidato dal Piano
-Tra la fine del 1980 ed inizio 1990, l'idea più comune per un corretto sviluppo richiedeva un processo rigoroso
-* **Definizione**: grandi team sviluppano sistemi complessi e di lunga durata (es. avionica)
-* **Caratteristiche**:
-    * Notevole sforzo (overhead) per la pianificazione, progettazione e documentazione del sistema
-    * Per software medio-piccoli (es. app mobile), l'overhead rischia di diventare dominante, togliendo tempo alla programmazione
-    * Specifiche molto dettagliate che probabilmente non verranno mai lette
-    * Contengono spesso errori scopribili solo in fase di implementazione, richiedendo modifiche che sottraggono altro tempo alla programmazione
-* **Evoluzione**: All'inizio degli anni '90 nascono i **metodi agili**
+Tra la fine del 1980 ed inizio 1990, l'idea più comune per un corretto sviluppo richiedeva un processo rigoroso:
+* Notevole sforzo (overhead) per la pianificazione, progettazione e documentazione del sistema
+* Per software medio-piccoli (es. app mobile), l'overhead rischia di diventare dominante, togliendo tempo alla programmazione
+* Specifiche molto dettagliate che probabilmente non verranno mai lette
+* Errori nelle specifiche scopribili solo in fase di implementazione, richiedendo modifiche che sottraggono altro tempo alla programmazione
+
+**Evoluzione**: all'inizio degli anni '90 nascono i **metodi agili**.
 
 ---
 
@@ -75,11 +73,12 @@ Caratteristiche principali:
     * Sviluppo incrementale del software
     * Velocità di sviluppo ed adattamento
 * **Obiettivo**: riduzione overhead e rapido adattamento ad un cambiamento di specifiche senza troppa difficoltà
-* **Fondamenta**: Tutti i metodi agili condividono i principi del **Manifesto Agile**
-* **Focus**: Ci concentriamo su **Extreme Programming** e **Scrum**
+* **Fondamenta**: tutti i metodi agili condividono i principi del **Manifesto Agile**
 
----
+> Ci concentriamo su **Extreme Programming** e **Scrum**.
 
+<!-- --- -->
+<!-- 
 ### Manifesto per lo Sviluppo Agile
 Stiamo scoprendo modi migliori di creare software, sviluppandolo e aiutando gli altri a fare lo stesso. Grazie a questa attività siamo arrivati a considerare importanti:
 * **Gli individui e le interazioni** più che i processi e gli strumenti 
@@ -87,7 +86,7 @@ Stiamo scoprendo modi migliori di creare software, sviluppandolo e aiutando gli 
 * **La collaborazione col cliente** più che la negoziazione dei contratti 
 * **Rispondere al cambiamento** più che seguire un piano 
 
-*Fermo restando il valore delle voci a destra, consideriamo più importanti le voci a sinistra*.
+*Fermo restando il valore delle voci a destra, consideriamo più importanti le voci a sinistra*. -->
 
 ---
 
@@ -144,7 +143,8 @@ Le funzionalità identificate dovrebbero essere:
 * **Indipendenti**: non dipendere dal modo in cui sono implementate le altre
 * **Coese**: legate a una singola funzione
 * **Pertinenti**: non offrire funzionalità "oscure"
-* **Feature creep**: aumento eccessivo di funzionalità che causa bachi, vulnerabilità e menù troppo complessi
+
+**Feature creep**: aumento eccessivo di funzionalità che causa bachi, vulnerabilità e menù troppo complessi
 
 ---
 
@@ -159,13 +159,14 @@ Ridurre la complessità di un programma senza cambiarne il comportamento esterno
 ### Testing in XP
 Il programma è testato ad ogni cambiamento
 * **TDD**: Scrivere il test prima del codice chiarisce la funzionalità
-* **Automazione**: uso di framework come JUnit (Java) o Pytest (Python)
+* **Automazione**: uso di framework (es. JUnit per Java, Pytest per Python)
 * **Tipologie**:
     * **Funzionale**: verifica l'intero sistema
     * **Utente**: include *alpha testing* (sviluppatori + utenti) e *beta testing* (rilascio a utenti esterni per usabilità)
     * **Prestazioni e carico**: identifica i colli di bottiglia
     * **Sicurezza**: verifica l'integrità del sistema
-* **Criticità**: i programmatori possono scrivere test incompleti; difficoltà con interfacce grafiche e casi limite
+
+**Criticità**: i programmatori possono scrivere test incompleti; difficoltà con interfacce grafiche e casi limite.
 
 ---
 
@@ -178,10 +179,6 @@ Fornisce un riferimento per l'organizzazione e la gestione agile di un progetto
     * **Sprint**: ciclo di 2-4 settimane per implementare miglioramenti
     * **Daily Scrum**: incontri quotidiani di allineamento
     * **Sprint Backlog**: lavoro selezionato per lo sprint corrente
-
-
-
-[Image of the Scrum framework cycle]
 
 
 #### Componenti Principali:
