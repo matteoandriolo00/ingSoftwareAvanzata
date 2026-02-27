@@ -6,19 +6,19 @@ Docente: Damiano Azzolini.
 
 ## Risorse
 
-- [Syllabus](https://unife.coursecatalogue.cineca.it/corsi/2025/10427/insegnamenti/2025/49587/2025/2?coorte=2025&schemaid=12545)
+- [Syllabus](https://unife.coursecatalogue.cineca.it/corsi/2025;anno=2025)
 - [Aule](https://aule.unife.it/AgendaStudenti/index.php?view=easycourse&_lang=it)
 - Google Classrom: ugtkaxp4
 - Materiale Didattico: questo repository
 
-Suggerisco di avere un ambiente **Linux** funzionante (durante le lezioni utilizzerò WSL, ma una qualsiasi distro va bene).
+Suggerisco di avere un ambiente **Linux** funzionante (durante le lezioni verrà utilizzato WSL, ma una qualsiasi distro Linux va bene).
 
 ## Lezioni 2026
 
 | #  | Data | Argomento |
 | -- | -- |-------- |
-| 01 | TODO | TODO |
-| 02 | TODO | TODO |
+| 01 | 27/02/2026 | Introduzione e metodi agili |
+| 02 | 06/03/2026 | TODO |
 | 03 | TODO | TODO |
 | 04 | TODO | TODO |
 | 05 | TODO | TODO |
