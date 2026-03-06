@@ -16,3 +16,13 @@ Estrarre i valori per `Cognome` e `Email` solo per le prime 10 righe (escludendo
 # Esercizio 3
 Il file `access.log` contiene i log di un server web.
 Trovare i 5 indirizzi IP che hanno effettuato più richieste.
+
+
+# Soluzione Esercizio 1
+Possibile soluzione: `comm -23 v1_deps.txt v2_deps.txt`
+
+# Soluzione Esercizio 2
+Possibile soluzione: `head -n 11 users.csv | tail -n 10 | cut -d',' -f2,3`
+
+# Soluzione Esercizio 3
+Possibile soluzione: `cut access.log -d' ' -f1 | sort | uniq -c | sort -nr | head -n 5`
