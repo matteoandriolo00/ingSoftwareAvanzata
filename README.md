@@ -18,8 +18,8 @@ Suggerisco di avere un ambiente **Linux** funzionante (durante le lezioni verrà
 | #  | Data | Argomento |
 | -- | -- |-------- |
 | 01 | 27/02/2026 | Introduzione e metodi agili |
-| 02 | 06/03/2026 | TODO |
-| 03 | TODO | TODO |
+| 02 | 06/03/2026 | Git |
+| 03 | 09/03/2026 | TODO |
 | 04 | TODO | TODO |
 | 05 | TODO | TODO |
 | 06 | TODO | TODO |
