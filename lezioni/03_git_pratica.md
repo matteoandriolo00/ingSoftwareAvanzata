@@ -72,7 +72,7 @@ Esempio di generatore: https://www.toptal.com/developers/gitignore/.
 - Modifica ultimo commit: `git commit --amend` (per cambiare il messaggio o aggiungere file dimenticati con `git add`)
 - Operazioni avanzate: `git rebase` per riorganizzare o eliminare commit più vecchi
 
-<!-- ## 7. Comandi per Repository Remoti
+## 7. Comandi per Repository Remoti
 - Clonazione: `git clone <url_repository>`
 - Aggiunta repository remoto: `git remote add origin <url>`
 - Invio modifiche: `git push origin <branch_name>`
@@ -83,4 +83,4 @@ Esempio di generatore: https://www.toptal.com/developers/gitignore/.
 ## 8. Maggiori Informazioni
 - Sito: https://git-scm.com/Git 
 - Cheat sheet: https://github.github.com/training-kit/
- -->
+
