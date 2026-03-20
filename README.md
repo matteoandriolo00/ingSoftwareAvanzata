@@ -20,8 +20,8 @@ Suggerisco di avere un ambiente **Linux** funzionante (durante le lezioni verrà
 | 01 | 27/02/2026 | Introduzione e metodi agili |
 | 02 | 06/03/2026 | Git |
 | 03 | 09/03/2026 | Git e clean code |
-| 04 | 20/03/2026 | TODO |
-| 05 | TODO | TODO |
+| 04 | 20/03/2026 | Code review e unit testing |
+| 05 | 25/03/2026 | TODO |
 | 06 | TODO | TODO |
 | 07 | TODO | TODO |
 | 08 | TODO | TODO |
