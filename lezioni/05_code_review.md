@@ -78,6 +78,6 @@ La Code Review moderna è supportata da piattaforme avanzate:
 - utilizzo Type Hinting
   - *KO:* `def calcola_sconto(prezzo, percentuale):`
   - *OK:* `def calcola_sconto(prezzo: float, percentuale: float) -> float:`
-- controllare la presenza delle **docstring**.
+- controllare la presenza delle **docstring**
   - c'è uno standard?
   - la docstring spiega *perché* una funzione fa una certa cosa (il *come* lo spiega il codice)
