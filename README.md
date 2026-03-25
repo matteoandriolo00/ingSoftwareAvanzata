@@ -21,8 +21,8 @@ Suggerisco di avere un ambiente **Linux** funzionante (durante le lezioni verrà
 | 02 | 06/03/2026 | Git |
 | 03 | 09/03/2026 | Git e clean code |
 | 04 | 20/03/2026 | Code review e unit testing |
-| 05 | 25/03/2026 | TODO |
-| 06 | TODO | TODO |
+| 05 | 25/03/2026 | Mutation testing e property based testing |
+| 06 | 13/04/2026 | Testimonianza d'aula |
 | 07 | TODO | TODO |
 | 08 | TODO | TODO |
 | 09 | TODO | TODO |
