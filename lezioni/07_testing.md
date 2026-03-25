@@ -79,7 +79,7 @@ def positivi(x : int, y : int) -> bool:
 ```
 
 * function coverage: 100% se la funzione viene chiamata almeno una volta durante il test
-* statement coverage: 100% se la funzione viene chiamata come `positivi(1,1)` che con `positivi(0,1)`. In questo modo vengono testate tutte le istruzioni
+* statement coverage: 100% se la funzione viene chiamata come `positivi(1,1)` e come `positivi(0,1)`. In questo modo vengono testate tutte le istruzioni
 * branch coverage: 100% se la funzione viene chiamata, per esempio, sia come `positivi(1,1)` che come `positivi(0,1)`. In questo modo vengono testati tutti i branch
 * condition coverage: 100% se la funzione viene chiamata, per esempio, come `positivi(1,0)` (`x > 0` `True` e `y > 0` `False`) e come `positivi(0,1)` (`x > 0` `False` e `y > 0` `True`). In questo modo vengono testati entrambi i valori di verità per le due espressioni (`x > 0` e `y > 0`)
     - da notare che condition coverage non implica branch coverage: con gli input di questo esempio, non vengono testati entrambi i branch, ma solo quello `False` 
@@ -95,8 +95,6 @@ All'interno di un progetto gestito con uv possiamo usare
 ```
 uv add pytest
 ```
-oppure se si usa `pip` 
-`python -m pip install pytest`.
 
 Convenzioni per `pytest`:
 * test definiti in funzioni che iniziano con `test_` che contengono `assert` o lanciano errori
@@ -218,6 +216,22 @@ uv run coverage run --branch -m pytest
 ## Esercizio
 Scrivere i test per il codice mostrato sopra.
 
+## Raggruppamento Test
+Utilizzando `pytest` è possibile utilizzare `@pytest.mark.parametrize` per raggruppare più test.
+```Python
+@pytest.mark.parametrize("orders, promo_code, is_vip, expected",
+    [
+		([], "SAVE10", False, 0.0),
+		([Product("Scarpe", 25.0, 3)], "SAVE10", False, 75.0),
+		([Product("Scarpe", 25.0, 4)], "SAVE10", False, 90.0),
+		([Product("Scarpe", 25.0, 1)], "SAVE10", False, 30.0),
+		([Product("Scarpe", 25.0, 1)], "SAVE10", True, 27.0)
+	]
+)
+def test_ordine(orders, promo_code, is_vip, expected):
+    assert calculate_order_total(orders, promo_code, is_vip) == expected
+```
+
 <!-- 
 
  -->
@@ -229,14 +243,3 @@ Risulta utile quando:
 * Metodi e funzioni che richiedono collegamenti ad internet e operazioni lunghe
 
 ---
-
-## Property Based Testing
-Obiettivo: generare una serie di input casuali per metodi e funzioni e verificare che alcune proprietà siano sempre verificate.
-
-Uno dei primi framework sviluppati è stato `quickcheck` per haskell, poi esteso a molti altri linguaggi.
-
-Componenti principali:
-* generatore di input casuali
-* *shrinking*: ridurre la complessità di un'istanza che genera un fallimento per rendere il test più interpretabile
-
-In python possiamo usare hypothesis: `python3 -m pip install hypothesis` -->
