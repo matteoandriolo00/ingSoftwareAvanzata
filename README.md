@@ -23,13 +23,13 @@ Suggerisco di avere un ambiente **Linux** funzionante (durante le lezioni verrà
 | 04 | 20/03/2026 | Code review e unit testing |
 | 05 | 25/03/2026 | Mutation testing e property based testing |
 | 06 | 13/04/2026 | Testimonianza d'aula |
-| 07 | TODO | TODO |
-| 08 | TODO | TODO |
-| 09 | TODO | TODO |
-| 10 | TODO | TODO |
-| 11 | TODO | TODO |
-| 12 | TODO | TODO |
-| 13 | TODO | TODO |
+| 07 | 20/04/2026 | TBD |
+| 08 | TBD | TBD |
+| 09 | TBD | TBD |
+| 10 | TBD | TBD |
+| 11 | TBD | TBD |
+| 12 | TBD | TBD |
+| 13 | TBD | TBD |
 
 
 ## Come Convertire MD in PDF
