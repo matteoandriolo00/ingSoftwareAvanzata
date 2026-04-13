@@ -1,5 +1,5 @@
 # Ingegneria del Software Avanzata A.A. 2025/2026
-## Testing
+## Mutation Testing
 
 Docente: Damiano Azzolini - Università di Ferrara
 
