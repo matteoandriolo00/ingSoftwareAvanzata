@@ -93,3 +93,5 @@ if __name__ == "__main__":
 ```
 
 Implementare una suite di test per la classe `TTLCache`.
+
+Form per il caricamento dell'esercizio: [https://forms.gle/DVS5GsMkShX5C5V48](https://forms.gle/DVS5GsMkShX5C5V48)
