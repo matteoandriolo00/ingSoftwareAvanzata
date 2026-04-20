@@ -30,16 +30,17 @@ I test poi possono essere lanciati con `uv run pytest`.
 Consideriamo il piccolo progetto descritto in `06_python_repository.md` e `07_testing.md`.
 
 Quali possono essere delle proprietà da verificare?
-<!-- - il totale non può essere mai negativo
+Per esempio:
+- il totale non può essere mai negativo
 - un codice promozionale valido non può mai far aumentare il prezzo
-- la differenza di prezzo tra un ordine con sconto e lo stesso ordine ma senza sconto deve essere 10 euro o 0 euro  -->
+- la differenza di prezzo tra un ordine con sconto e lo stesso ordine ma senza sconto deve essere 10 euro o 0 euro 
 
 Provare a generare delle istanze di `Product` in maniera casuale da inserire dentro al decoratore `@given`.
 Suggerimento: utilizzare 
 - [`lists`](https://hypothesis.readthedocs.io/en/latest/reference/strategies.html#hypothesis.strategies.lists) per generare una lista di elementi
 - [`builds`](https://hypothesis.readthedocs.io/en/latest/reference/strategies.html#hypothesis.strategies.builds) per generare `Product`
 
-<!-- ```Python
+```Python
 @given(
     orders = st.lists(
         st.builds(
@@ -55,7 +56,7 @@ Suggerimento: utilizzare
 )
 def test_ordine(orders, promo_code, is_vip):
     assert calculate_order_total(orders, promo_code, is_vip) >= 0
-``` -->
+```
 
 
 
