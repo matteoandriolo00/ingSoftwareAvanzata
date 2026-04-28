@@ -23,8 +23,8 @@ Suggerisco di avere un ambiente **Linux** funzionante (durante le lezioni verrà
 | 04 | 20/03/2026 | Code review e unit testing |
 | 05 | 25/03/2026 | Mutation testing e property based testing |
 | 06 | 13/04/2026 | Testimonianza d'aula |
-| 07 | 20/04/2026 | TBD |
-| 08 | TBD | TBD |
+| 07 | 20/04/2026 | Mocking ed esercizio |
+| 08 | 29/04/2026 | TBD |
 | 09 | TBD | TBD |
 | 10 | TBD | TBD |
 | 11 | TBD | TBD |
