@@ -24,12 +24,12 @@ Suggerisco di avere un ambiente **Linux** funzionante (durante le lezioni verrà
 | 05 | 25/03/2026 | Mutation testing e property based testing |
 | 06 | 13/04/2026 | Testimonianza d'aula |
 | 07 | 20/04/2026 | Mocking ed esercizio |
-| 08 | 29/04/2026 | TBD |
-| 09 | TBD | TBD |
-| 10 | TBD | TBD |
-| 11 | TBD | TBD |
-| 12 | TBD | TBD |
-| 13 | TBD | TBD |
+| 08 | 29/04/2026 | Approfondimento su data engineering |
+| 09 | 04/05/2026 | TBD |
+| 10 | 11/05/2026 | TBD |
+| 11 | 15/05/2026 | TBD |
+| 12 | 20/05/2026 | TBD |
+| 13 | 27/05/2026 | TBD |
 
 
 ## Come Convertire MD in PDF
