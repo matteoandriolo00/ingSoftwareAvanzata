@@ -95,3 +95,12 @@ if __name__ == "__main__":
 Implementare una suite di test per la classe `TTLCache`.
 
 Form per il caricamento dell'esercizio: [https://forms.gle/DVS5GsMkShX5C5V48](https://forms.gle/DVS5GsMkShX5C5V48)
+
+## Parte 2
+Considerare i seguenti file per il test:
+- Test 1: [https://drive.google.com/file/d/11-A8aUTszsEfycZgLiiy4wQOBhPtw8Pi/view?usp=sharing](https://drive.google.com/file/d/11-A8aUTszsEfycZgLiiy4wQOBhPtw8Pi/view?usp=sharing)
+- Test 2: [https://drive.google.com/file/d/1WLyX6pNHX3t0wtRQZvHl5dAQLmr4VEs6/view?usp=sharing](https://drive.google.com/file/d/1WLyX6pNHX3t0wtRQZvHl5dAQLmr4VEs6/view?usp=sharing)
+- Test 3: [https://drive.google.com/file/d/18ZWvMUkkXiMFYTNhFiRFcXtyCl3MLRlw/view?usp=sharing](https://drive.google.com/file/d/18ZWvMUkkXiMFYTNhFiRFcXtyCl3MLRlw/view?usp=sharing)
+- Test 4: [https://drive.google.com/file/d/1_YibPmJUENPL6gbar4XSXwtTL9QyC_wd/view?usp=sharing](https://drive.google.com/file/d/1_YibPmJUENPL6gbar4XSXwtTL9QyC_wd/view?usp=sharing)
+
+Scrivere una valutazione per ciascuno dei 4 come illustrato nel form seguente: [https://forms.gle/NqAsXDrWS8RUbCyB7](https://forms.gle/NqAsXDrWS8RUbCyB7)
